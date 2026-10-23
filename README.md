@@ -21,7 +21,7 @@ A read-only **Bionic Reading overlay for Windows**. It captures a screen region,
 **Requirements:** Windows 10 (2004+) / Windows 11, Python 3.10+ 64-bit.
 
 ```powershell
-git clone <repository-url>
+git clone https://github.com/Kartik-gawd/Bionic-Overlay.git
 cd bionic-overlay
 python launcher.py
 ```
