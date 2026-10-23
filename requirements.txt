@@ -1,0 +1,31 @@
+#   pip install -r requirements.txt          (Windows 10 2004+/11)
+# Lines starting with "# [optional]", "# [dev]" or "# [build]" are OFF by default:
+# remove the leading "# " from the lines you want, then run pip again.
+
+# REQUIRED:
+
+PySide6>=6.6       
+numpy>=1.24           
+Pillow>=10.0
+mss>=9.0              
+
+# REQUIRED on Windows: default OCR engine (Windows.Media.Ocr via pywinrt)
+
+winrt-runtime>=2.0; sys_platform == "win32"
+winrt-Windows.Foundation>=2.0; sys_platform == "win32"
+winrt-Windows.Foundation.Collections>=2.0; sys_platform == "win32"
+winrt-Windows.Globalization>=2.0; sys_platform == "win32"
+winrt-Windows.Graphics.Imaging>=2.0; sys_platform == "win32"
+winrt-Windows.Media.Ocr>=2.0; sys_platform == "win32"
+winrt-Windows.Storage.Streams>=2.0; sys_platform == "win32"
+
+# REQUIRED on Windows: native MS tools
+
+pywin32>=306; sys_platform == "win32"
+
+# [optional] extra OCR engines 
+# [optional] Tesseract engine - ALSO install the Tesseract program itself (UB-Mannheim Windows build)
+# pytesseract>=0.3.10
+# [optional] PaddleOCR engine - large download (hundreds of MB); do NOT install it in the venv you build the .exe from
+# paddlepaddle
+# paddleocr
