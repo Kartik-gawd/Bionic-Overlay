@@ -29,7 +29,7 @@ python launcher.py
 The launcher can install missing dependencies automatically.
 
 Or
-Download exe and run: 
+Download exe and run: [Link to Download](https://github.com/Kartik-gawd/Bionic-Overlay/releases/tag/V1.0)
 
 ## Usage
 
